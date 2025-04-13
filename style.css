@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "M PLUS Rounded 1c", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+}
+
+a {
+   text-decoration: none;
+   color: #000000;
+}
+
+
+
+.features-dote {
+    list-style:circle;
+}
+
+ul,li {
+    list-style: none;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-ul {
+    display: flex;
+}
+
+.header-ul li {
+    margin-right: 50px;
+}
+
+.header-ul li:last-child {
+    margin-right: 0;
+}
+
+.button {
+    padding: 10px 25px;
+    background: rgb(78, 147, 238);
+    border-radius: 10px;
+}
+
+.hero {
+    height: 630px;
+    background-image: url(/img/1_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+
+.hero img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    position: absolute;
+    left: 655px;
+    top: 290px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.cards li {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    padding-bottom: 20px;
+}
+
+.card-price {
+    color: rgb(39, 49, 104);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.price {
+    margin-bottom: 10px;
+}
+
+.card-description {
+    color: rgb(39, 49, 104);
+}
+
+.card div {
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.card-description div{
+    margin-top: 20px;
+}
+
+.services-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-block-info {
+    margin-bottom: 20px;
+    margin-right: 120px;
+}
+
+.services-block-info h3 {
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.services-block-item {
+    margin-bottom: 10px;
+}
+.services-block-item:last-child{
+    margin-bottom: 15px;
+}
+
+
+.services{
+    background-color: #6462623b;
+    padding: 10px 10px 20px 10px;
+}
+
+
+.services-img{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.trigger{
+    background-color: #a7a7a7ec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.trigger div {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.trigger span{
+    color: #3616ec;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+.trigger p{
+    color: #000000;
+    font-size:15px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form img {
+    display: block;
+    width: 500px;
+}
+
+textarea{
+    height: 150px;
+    border-radius: 5px;
+}
+
+input{
+    height: 30px;
+    border-radius: 5px;
+}
+
+.reviews-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews-card img {
+    width: 100%;
+}
+
+
+.reviews-card{
+    width: 400px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #000000;
+}
+
+.footer img {
+    margin-right: 15px;
+}
+
+.tour-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tour-gallery {
+    display: flex;
+    width: 650px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.tour-wrapper-descr p {
+    margin-bottom: 15px;
+}
+
+.tour-wrapper-descr span {
+    font-weight: 600;
+}
+
+.tour-wrapper-price {
+    font-size: 30px;
+}
+
+.tour-info {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tour-info-descr {
+    width: 650px;
+}
+
+.tour-info-features {
+    width: 495px;
+}
+
+.footer{
+    padding-top: 90px;
+}
+
+@media( max-width: 1024px) {
+    h1 {
+        left: 420px;
+        top: 350px;
+    }
+}
+
+@media( max-width: 768px) {
+    h1 {
+         top: 350px;
+        width: 100%;
+    }
+}
+
+@media( max-width: 600px) {
+    h1{
+        text-align: center;
+        width: 100%;
+    }
+    
+}
+
+@media( max-width: 480px) {
+    .container {
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        position: absolute;
+        left: 10px;
+    }
+
+    .services-block {
+        flex-wrap: wrap;
+    }
+
+    .services-img {
+        width: 100%;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        gap: 20px;
+}
+    .reviews-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .form {
+        flex-wrap: wrap;
+    }
+ }
+
+@media( max-width: 320px) {
+ 
+}
