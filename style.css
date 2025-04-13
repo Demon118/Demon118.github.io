@@ -347,6 +347,29 @@ input{
     .form {
         flex-wrap: wrap;
     }
+
+    .header {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 450px;
+        justify-content: center;
+    }
+
+    .header-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    }
+
+    .form-img-footer {
+        width: 400px;
+    }
+
+    .cards {
+    justify-content: center;
+    }
  }
 
 @media( max-width: 320px) {
