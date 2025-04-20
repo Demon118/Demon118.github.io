@@ -371,6 +371,9 @@ input{
     .cards {
     justify-content: center;
     }
+    .form img {
+        width: 400px;
+    }
  }
 
 @media( max-width: 320px) {
