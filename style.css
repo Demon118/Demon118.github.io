@@ -315,7 +315,7 @@ input{
     
 }
 
-@media( max-width: 480px) {
+@media( max-width: 586px) {
     .container {
         width: 450px;
         margin: 0 auto;
@@ -337,11 +337,12 @@ input{
     .cards {
         flex-wrap: wrap;
         gap: 20px;
-}
+    }
     .reviews-list {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .form {
