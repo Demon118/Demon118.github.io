@@ -371,8 +371,21 @@ input{
     .cards {
     justify-content: center;
     }
+
     .form img {
         width: 400px;
+    }
+
+    .tour-wrapper {
+        flex-direction: column;
+    }
+    
+    .tour-gallery {
+        width: 450px;
+    }
+
+    .main-photo {
+        width: 450px;
     }
  }
 
