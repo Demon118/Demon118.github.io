@@ -46,7 +46,7 @@ ul,li {
     max-width: 1400px; 
     width: 100%; 
     margin: 0 auto; 
-    padding: 0 1px; 
+    padding: 0 15px; 
 } 
  
 .header { 
@@ -344,7 +344,8 @@ display: flex;
 @media (max-width: 586px) { 
     /* Контейнер */ 
     .container { 
-        width: 100%;  
+        width: 100%;
+        padding: 0 15px;  
     } 
  
     section { 
